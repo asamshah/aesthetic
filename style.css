@@ -1,0 +1,556 @@
+/* Index Home Page */ 
+
+body {
+	font-family: Arimo;
+	font-size: 16px;
+	line-height: 1.5;
+  color: #333333;
+}
+
+header{
+  padding: 40px;
+  text-align: center;
+  height: auto;
+  max-height: 100vh;
+  width: auto;
+}
+
+.hero {
+  background-image: url(img_1052-2.jpeg);
+  background-size: cover;
+  max-width: 1024px;
+  background-position: center;
+  padding: 280px 20px 280px 20px;
+  margin-left: 15%;
+}
+
+.blockquote h1 {
+  font-size: 40px;
+  color: #333333;
+  margin-top: 10px;
+}
+
+.blockquote {
+  text-decoration: none;
+  font-weight: 500;
+  color: #666666;
+  font-size: 30px;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+.menu {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 50vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+  z-index: 2;
+}
+
+.menu-toggle {
+  position: fixed;
+  top: 44px;
+  left: 216px;
+  z-index: 3;
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.input-group-field {
+  color: #666666;
+}
+
+nav a {
+  font-size: 24px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-family: Arimo;
+}
+
+nav {
+  position: absolute;
+  left: 65px;
+  right: 50%;
+  transform: translateY(60%);
+}
+
+.blockquote {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+  color: #333333;
+}
+
+.treatments {
+  margin: 0 0 150px 0;
+  max-width: 960px;
+  padding-left: 20px;
+  padding-right: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  font-weight: 700;
+}
+
+.treatments h2 a {
+  font-size:40px;
+  line-height: 1.125;
+  font-weight: 700;
+  text-decoration: none;
+  color: #333333;
+  position: absolute;
+  right: 0;
+  top: 70%;
+  width: 360px;
+  transform: translateY(-50%);
+}
+
+.treatments p {
+  color: #333333;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  position: absolute;
+  right: 0;
+  top: 40%;
+  width: 360px;
+  transform: translateY(-50%);
+}
+
+.columns {
+  font-weight: 700;
+}
+
+
+.prices {
+  margin: 0 0 150px 0;
+  max-width: 960px;
+  padding-left: 360px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  font-weight: 700;
+}
+
+.prices h2 a {
+  margin: 20px;
+  font-size:40px;
+  line-height: 1.12;
+  font-weight: 700;
+  text-decoration: none;
+  color: #333333;
+  position: absolute;
+  left: 30px;
+  top: 80%;
+  width: 360px;
+  transform: translateY(-60%);
+}
+
+.prices p {
+  color: #333333;
+  font-size: 22px;
+  line-height: 1.2;
+  position: absolute;
+  left: 50px;
+  top: 40%;
+  width: 360px;
+  transform: translateY(-50%);
+}
+
+.bookings {
+  margin: 0 0 150px 0;
+  max-width: 960px;
+  padding-left: 20px;
+  padding-right: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  font-weight: 700;
+}
+
+.bookings h2 a {
+  font-size:40px;
+  line-height: 1.125;
+  font-weight: 700;
+  text-decoration: none;
+  color: #333333;
+  position: absolute;
+  right: 0;
+  top: 70%;
+  width: 360px;
+  transform: translateY(-50%);
+}
+
+.bookings p {
+  color: #333333;
+  font-size: 22px;
+  line-height: 1.2;
+  position: absolute;
+  right: 0;
+  top: 40%;
+  width: 360px;
+  transform: translateY(-50%);
+  margin-bottom: 10px;
+}
+
+
+.blockquote-2 {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  color: #333333;
+  font-size: 26px;
+  line-height: 1.5;
+  margin: 0 0 0 20px;
+  left: 80px;
+  top: 20px;
+}
+
+.blockquote-2 h2 {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.blockquote-2 p {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  width: auto;
+  padding: 20px;
+  
+}
+
+footer nav {
+  width: 165vh;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+footer nav a {
+	display: inline-block;
+  width: 25px;
+  margin-left: 10px;
+  margin-bottom: 80px;
+}
+
+footer .newsletter {
+  font-weight: 700;
+}
+
+.input-group-field {
+  background: none;
+	border-color: #999999;
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 2px 2px;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 600;
+	height: 45px;
+  text-align: center;
+  padding: 15px;
+ 	vertical-align: top;
+}
+
+/* About Page */ 
+
+.about-hero {
+  background-image: url(looking-up.jpg);
+  background-size: cover;
+  max-width: 1024px;
+  background-position: center;
+  padding: 20%;
+	margin: 0 0 0 216px;
+}
+
+.who-we-are {
+  padding: 5% 20% 20% 20%;
+}
+.who-we-are h1 {
+  font-size: 50px;
+  line-height: 1.125;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+}
+
+.who-we-are h2 {
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 600;
+  text-align: center;
+}
+
+.who-we-are p {
+  font-size: 22px;
+  line-height: 1.2;
+  color: #333333;
+  padding: 20px;
+  text-align: left;
+  margin: 20px;
+}
+
+.who-we-are div h1 {
+  font-family: Libre Baskerville;
+  font-size: 38px;
+  color: #999999;
+}
+
+.who-we-are a {
+  text-decoration: none;
+}
+
+/* FAQ */
+
+.faq-hero {
+  background-image: url(woman-3096664_1920.jpg);
+  background-size: cover;
+  max-width: 1024px;
+  background-position: center;
+  padding: 20%;
+	margin: 0 0 0 216px;
+}
+
+.faq {
+  padding: 5% 20% 20% 20%;
+}
+
+.faq h1 {
+  font-size: 50px;
+  line-height: 1.125;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+}
+
+.faq h2 {
+  font-size: 24px;
+  line-height: 1.125;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+}
+
+.faq h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Booking Form*/
+
+.contact-form {
+	margin: 0;
+	padding: 0 0 20px 0;
+	text-align: center;
+	background: none;
+  text-align: center;
+}
+
+.form-title {
+	margin-top: 10px;
+	color: #333333;
+	transition: all 4s ease-in-out;
+  font-size: 32px;
+	line-height: 10px;
+  text-align: center;
+  padding: 0 0 35px 0;
+}
+
+.form-title h1 {
+  font-size: 50px;
+  line-height: 1.125;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px 20px 40px 20px;
+}
+
+.form-title h2 {
+  font-size: 26px;
+}
+
+.form {
+  margin-top: 50px;
+	transition: all 4s ease-in-out;
+  text-align: center;
+}
+
+.form-control {
+  width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #000000;
+	font-size: 18px;
+	margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+} 
+
+input {
+  height: 45px;
+  vertical-align: bottom;
+}
+
+.confirmation-button {
+  background: none;
+	border-color: #999999;
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 2px 2px;
+	color: #666666;
+	font-size: 18px;
+	font-weight: 600;
+	height: 50px;
+	margin-top: 50px;
+  text-align: center;
+  padding: 5px 25px 5px 25px;
+  vertical-align: top;
+}
+
+.options {
+ 	margin: auto;
+  width: 45%;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+}
+
+.drop-down {
+  padding: 10px;
+}
+
+::placeholder {
+  color: #adadad;
+  opacity: 1;
+}
+
+label {
+  font-size: 20px;
+  padding: 20px;
+}
+
+/*  Treatments */
+
+.title {
+  font-size: 50px;
+  line-height: 1.125;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+	float: left;
+  width: 50%;
+ 	padding: 5%;
+}
+
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+
+.price .header {
+  background-color: #666666;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.button {
+  background: none;
+	border-color: #999999;
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 2px 2px;
+	color: #666666;
+	font-size: 18px;
+	font-weight: 600;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+
+/* Thank You Page */
+
+.thankyou-message h1 {
+  font-size: 32px;
+  text-align: center;
+  margin: 50px;
+ 	font-weight: 600;
+}
+
+.thankyou-message h2 {
+  font-size: 24px;
+  text-align: center;
+  margin: 50px;
+ 	font-weight: 500;
+  text-decoration: none;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
